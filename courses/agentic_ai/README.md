@@ -4,14 +4,14 @@ A comprehensive program covering Python fundamentals through production deployme
 
 ## Course Materials
 
-| Week | Topic | Document |
-|------|-------|----------|
-| 1 | Python for Agentic AI | [w1_python.md](w1_python.md) |
-| 2 | Machine Learning Essentials | [w2_ml.md](w2_ml.md) |
-| 3 | RAG (Retrieval-Augmented Generation) | [w3_rag.md](w3_rag.md) |
-| 4 | MCP Server & Agent Architecture | [w4_mcp.md](w4_mcp.md) |
-| 5 | Multi-Agent Systems | [w5_agents.md](w5_agents.md) |
-| 6 | Agent Deployment | [w6_deploy.md](w6_deploy.md) |
+| Week | Topic | Topics |
+|------|-------| -------|
+| 1 | [Python for Agentic AI](w1_python.md) | basics of python, list, function and api |
+| 2 | [Machine Learning Essentials](w2_ml.md) | ML basica, regression, logistic models , pickle files |
+| 3 | [RAG (Retrieval-Augmented Generation)](w3_rag.md) | private data, RAG implementation, PDF , embeddings |
+| 4 | [MCP Server ](w4_mcp.md) | tools, MCP implementation |
+| 5 | [Agent Architecture](w5_agents.md) | Agents, memory, tools , multi agents |
+| 6 | [Agent Deployment](w6_deploy.md) | dockers , google vertex AI |
 
 ## Learning Path
 
@@ -37,8 +37,8 @@ Week 6: Production Deployment
 
 ## Tools & Technologies
 
-- Python 3.8+
-- OpenAI API
-- LangChain
+- Python 3.12+
+- GOOGLE API
+- Google ADK
 - Docker
 - Git

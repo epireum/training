@@ -1,5 +1,5 @@
 # Week 2: Machine Learning Essentials
-[back](README.md)
+[back](../README.md)
 ## Student Reading Material
 
 ### Introduction

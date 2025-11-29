@@ -1,5 +1,5 @@
 # Week 3.1: MCP Server
-[back](README.md)
+[back](../README.md)
 ## Student Reading Material
 
 ### Introduction

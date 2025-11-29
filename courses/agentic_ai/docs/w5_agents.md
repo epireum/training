@@ -1,5 +1,5 @@
 # Week 4: Agent Architecture
-[back](README.md)
+[back](../README.md)
 ## Student Reading Material
 
 ### Introduction

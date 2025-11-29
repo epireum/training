@@ -1,5 +1,5 @@
 # Week 1: Python for Agentic AI
-[back](readme.md)
+[back](README.md)
 ## Student Reading Material
 
 ### Introduction

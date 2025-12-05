@@ -1,0 +1,11 @@
+Extend the MCP Server  to add more tools
+
+Toos to add:
+
+Tool: student_info
+input: student_id
+Output: Student details (student_id, name, age, location, phone number)
+
+Hints:
+
+create a dictinory of students and add logic to retrun student details

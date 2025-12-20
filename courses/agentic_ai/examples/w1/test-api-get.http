@@ -1,0 +1,2 @@
+GET http://localhost:8000/items/5?q=test
+Accept: application/json

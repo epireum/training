@@ -1,0 +1,2 @@
+POST http://localhost:8000/users?name=John&age=30
+Accept: application/json

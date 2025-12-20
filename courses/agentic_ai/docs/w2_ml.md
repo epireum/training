@@ -26,7 +26,6 @@ For AI agents, machine learning is crucial. An agent might use ML to:
 By the end of this week, you will be able to:
 - Understand the fundamentals of machine learning and its role in AI agents
 - Implement linear regression for continuous predictions
-- Build classification models using logistic regression
 - Follow the complete ML workflow from data loading to model deployment
 - Save and load trained models using pickle
 - Create reusable ML tools that agents can invoke
@@ -175,46 +174,6 @@ prediction = model.predict([[5]])  # Predict salary for 5 years experience
 print(f"Predicted salary: ${prediction[0]:,.2f}")
 ```
 
-### Classification: Iris Flower Identification
-
-Classification models assign inputs to predefined categories based on their features.
-
-**Use Case**: Predict iris flower species based on petal and sepal measurements
-
-This demonstrates how agents can categorize and identify items. Similar classification tasks include:
-- Categorizing customer support tickets
-- Identifying document types
-- Classifying sentiment in text
-- Detecting anomalies or fraud
-
-**How it works:**  
-The model learns patterns in the measurements (sepal length, sepal width, petal length, petal width) that distinguish between iris species (setosa, versicolor, virginica).
-
-**Code Example:**
-
-```python
-from sklearn.datasets import load_iris
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-
-# Load iris dataset
-iris = load_iris()
-X = iris.data
-y = iris.target
-
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-# Train classifier
-model = LogisticRegression(max_iter=200)
-model.fit(X_train, y_train)
-
-# Make prediction
-prediction = model.predict([[5.4, 3.1, 1.7, 0.2]])
-species = iris.target_names[prediction[0]]
-print(f"Predicted species: {species}")
-```
-
 ---
 
 ## Model Persistence with Pickle
@@ -290,7 +249,7 @@ These functions encapsulate the complexity of loading models and making predicti
 
 ## Hands-On Practice
 
-### Saturday Workshop Activities
+### Sunday Workshop Activities
 
 During the hands-on session, you'll:
 
@@ -300,21 +259,12 @@ During the hands-on session, you'll:
    - Evaluate its accuracy
    - Save the model as salary_model.pkl
 
-2. **Train an Iris Classifier**
-   - Load the iris dataset
-   - Build and train a logistic regression classifier
-   - Test its classification accuracy
-   - Save the model as iris_model.pkl
 
-3. **Create ml_tools.py**
+2. **Create ml_tools.py**
    - Implement `predict_salary(years)` function
-   - Implement `predict_flower(specs)` function
-   - Test both functions with sample inputs
+   - Test the functions with sample inputs
 
-4. **Integrate with CLI**
-   - Extend your Week 1 command-line interface
-   - Add menu options to invoke ML predictions
-   - Experience how agents can call these tools
+
 
 ---
 
@@ -337,7 +287,6 @@ During the hands-on session, you'll:
 **Requirements:**
 - Create ml_tools.py module
 - Implement `predict_salary(years)` function
-- Implement `predict_iris(features)` function
 - Include proper error handling and documentation
 
 ### Assignment 3: Test with CLI

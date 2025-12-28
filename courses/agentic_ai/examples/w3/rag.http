@@ -1,0 +1,6 @@
+POST http://localhost:8000/question
+Content-Type: application/json
+
+{
+    "q": "what is the company's total expenses only, get only expenses not other information?"
+}

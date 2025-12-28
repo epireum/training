@@ -1,0 +1,11 @@
+pypdf
+pdf2image
+pytesseract
+chromadb
+tesseract
+google-genai
+
+sentence-transformers
+transformers
+huggingface-hub
+numpy==1.26.0

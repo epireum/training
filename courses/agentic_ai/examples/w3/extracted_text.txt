@@ -1,0 +1,39 @@
+Yellow Products
+Annual Financial Statements
+For the Year Ended December 31, 2024
+Income Statement
+Description
+USD
+Revenue
+5,000,000
+Cost of Goods Sold
+(3,000,000)
+Gross Profit
+2,000,000
+Operating Expenses
+(1,300,000)
+Operating Income
+700,000
+Interest Expense
+(80,000)
+Earnings Before Tax
+620,000
+Income Tax Expense
+(155,000)
+Net Income
+465,000
+Balance Sheet
+Assets
+USD
+Total Assets
+3,800,000
+Liabilities & Equity
+USD
+Total Liabilities
+2,050,000
+Total Equity
+1,750,000
+Cash Flow Summary
+Net Cash from Operating Activities: 615,000 USD
+Net Cash Used in Investing Activities: (500,000) USD
+Net Cash Used in Financing Activities: (50,000) USD
